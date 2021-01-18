@@ -18,7 +18,7 @@ To reproduce the experiments on DTI dataset, simply run:
 python3 train.py
 ```
 
-
+## Reference
 All readers are welcome to star/fork this repository and use it to reproduce our experiments or train your own data. Please kindly cite our paper:
 ```
 @inproceedings{Xue2021DualHGCN,
