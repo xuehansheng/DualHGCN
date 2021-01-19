@@ -174,8 +174,6 @@ def initialize_features(args, data, nodes, dim=32):
 	btypes.append('base')
 	initial_feats = dict()
 	for btype in btypes:
-		filepath = 'data/initial_feat_'+args.data+'_'+str(btype)+'.txt'
-		print(filepath)
 		A = generate_adj(data,nodes,btype).todense()
 		initial_feat = train_tiedAE(A,dim=args.dim_f,lr=args.lr_eba,weight_decay=args.weight_decay_eba,n_epochs=args.epoch_eba)
 		initial_feats[btype] = preprocessing.normalize(initial_feat)
