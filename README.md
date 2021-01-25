@@ -2,6 +2,9 @@
 
 This is the source code for The Web Conference (formerly WWW) 2021 paper ["Multiplex Bipartite Network Embedding using Dual Hypergraph Convolutional Networks"]().
 
+## Overview
+![image](DualHGCN.png)
+The unsupervised **Dual** **H**yper**G**raph **C**onvolutional **N**etwork (**DualHGCN**) model that scalably transforms the multiplex bipartite network into two sets of homogeneous hypergraphs (left figure) and uses spectral hypergraph convolutional operators, along with intra- and inter-message passing strategies to promote information exchange within and across domains, to learn effective node embeddings (right figure).
 
 ## Requirement
 ```
