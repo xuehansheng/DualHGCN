@@ -1,6 +1,6 @@
 # DualHGCN
 
-This is the source code for The Web Conference (formerly WWW) 2021 paper ["Multiplex Bipartite Network Embedding using Dual Hypergraph Convolutional Networks"]().
+This is the source code for The Web Conference (formerly WWW) 2021 paper ["Multiplex Bipartite Network Embedding using Dual Hypergraph Convolutional Networks"](https://arxiv.org/abs/2102.06371).
 
 ## Overview
 ![image](DualHGCN.png)
